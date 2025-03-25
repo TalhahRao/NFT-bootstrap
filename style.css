@@ -1,0 +1,87 @@
+body {
+    font-family: "DM Sans", sans-serif;
+}
+
+
+/* navbar starts here  */
+.connect-btn,
+.create-section .create-box .front-i{
+    background: linear-gradient(to right, #c4259e, #8606ab);
+    height: 35px;      
+     
+}
+
+/* hero section starts here  */
+.img-box{
+    top: 19px;
+    left: 15px; 
+    color: black
+}
+
+/* hero right  */
+
+ol li::marker {
+    font-weight: bold;
+    font-size: 36px;
+} 
+
+/* wallet section  */
+.wallet-section .box-2 {
+  transition: transform 0.5s ease-in-out; 
+}
+
+.wallet-section .box-2:hover {
+  transform: scale(1.2); 
+
+}
+.wallet-section .main-box:hover{
+    transition:0.7s ;
+    background-color: #c5269d !important; 
+}   
+
+/* create section starts here  */
+
+.create-section .create-box .background {
+    content: '';
+    position: absolute;
+    bottom: -72px;
+    right: -3px;
+    transition: 0.9s;
+    font-size: 187px;
+    opacity: 0.2;
+} 
+.create-section .create-box .background:hover{
+    transform: rotate(-40deg);
+}   
+
+/* footer section starts here  */
+.footer-section .container .row .box a:hover{
+    color: #8606ab !important;
+}
+
+.input-group {
+    background-color: #555362;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+.form-control {
+    background: transparent;
+    border: none;
+    color: white;
+}
+
+.form-control:focus {
+    background: transparent;
+    box-shadow: none;
+    border: none;
+}
+
+.btn-custom {
+    background: linear-gradient(to right, #c4259e, #8606ab);
+    border: none;
+    color: white;
+    border-radius: 0 50px 50px 0;
+}
+
+
